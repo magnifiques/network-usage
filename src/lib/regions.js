@@ -55,7 +55,7 @@ export const regions = [
   },
   {
     id: 10,
-    region: "Australia-East",
+    region: "Australia-North",
     data: 370,
     coordinates: [133.048806, -16.939114],
   },
