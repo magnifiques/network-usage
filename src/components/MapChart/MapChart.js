@@ -32,6 +32,7 @@ export default function MapChart() {
             return (
               <Marker key={marker.id} coordinates={marker.coordinates}>
                 <Tippy
+                  trigger="click"
                   theme="material"
                   content={`Region: ${marker.region}, Data-Usage: ${marker.data}`}
                 >

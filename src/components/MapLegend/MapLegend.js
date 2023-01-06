@@ -26,26 +26,26 @@ function MapLegend() {
         <h3>Map Legend</h3>
       </div>
       <div className={classes.individual}>
-        <p>500 and above</p>
+        <p className={classes.desc}>500 and above</p>
         <span className={`${classes.box} ${classes.above}`}></span>
         <p className={classes.percentage}>{(above500.length * 100) / 20}%</p>
       </div>
       <div className={classes.individual}>
-        <p>Between 499 and 300</p>
+        <p className={classes.desc}>Between 499 and 300</p>
         <span className={`${classes.box} ${classes.between1}`}></span>
         <p className={classes.percentage}>
           {(between500And300.length * 100) / 20}%
         </p>
       </div>
       <div className={classes.individual}>
-        <p>Between 299 and 100</p>
+        <p className={classes.desc}>Between 299 and 100</p>
         <span className={`${classes.box} ${classes.between2}`}></span>
         <p className={classes.percentage}>
           {(between300And100.length * 100) / 20}%
         </p>
       </div>
       <div className={classes.individual}>
-        <p>Below 100</p>
+        <p className={classes.desc}>Below 100</p>
         <span className={`${classes.box} ${classes.below}`}></span>
         <p className={classes.percentage}>{(below100.length * 100) / 20}%</p>
       </div>
