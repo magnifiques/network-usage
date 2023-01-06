@@ -1,0 +1,11 @@
+.container {
+  width: 1100px;
+}
+
+.circle {
+  opacity: 1;
+}
+
+.circle:hover {
+  opacity: 0.3;
+}

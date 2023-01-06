@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  width: 45%;
+}
+
+.individual {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr;
+  gap: 10px;
+}
+
+.box {
+  border: 1px solid black;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+}
+
+.percentage {
+  margin: auto;
+}
+
+.above {
+  background-color: rgba(0, 0, 255, 1);
+}
+
+.between1 {
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.between2 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.below {
+  background-color: rgba(0, 0, 255, 0.3);
+}
